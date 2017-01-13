@@ -1,0 +1,27 @@
+{
+  "name": "y80x86ol/mongo-orm",
+  "description": "The Mongo Orm Model For PHP",
+  "keywords": [
+    "mongo",
+    "php",
+    "orm"
+  ],
+  "homepage": "http://www.github.com/y80x86ol/mongo-orm",
+  "authors": [
+    {
+      "name": "Ken",
+      "email": "695093513@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "classmap": [
+      "Model/"
+    ],
+    "psr-4": {
+      "mongoOrm\\": "vendor/y80x86ol/mongoOrm/src/MongoOrm/"
+    }
+  }
+}
